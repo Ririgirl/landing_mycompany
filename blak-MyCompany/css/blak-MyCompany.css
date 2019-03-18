@@ -1,0 +1,290 @@
+.navbar{
+	padding-top:1%;
+	padding-left:12%;
+	padding-bottom:1%;
+	margine-right:9%;
+	background-color:black;
+	font-family:"Open Sans Bold";
+}
+.navbar-toggler-icon{
+	border:1px solid #999999;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#999999' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.logo-icon{
+	margin-right:29%;
+}
+.nav-link{
+	color:white;
+}
+.nav-item{
+margin-right:3%;
+}
+.activet{
+	border-bottom: 3px solid #fcac45;
+}
+a.nav-link:hover {
+	color:white;
+}
+a.nav-link:hover:not(.active) {
+	color:white;
+	border-bottom: 3px solid #fcac45;
+}
+.banner{
+	background-color: black;
+	height:790px;
+	padding-top:20%;
+}
+.bgwelcome{
+	font-family:"Open Sans Light";
+	color:#999999;
+	text-align:center;
+}
+.bgwelcome>font{
+	font-family: "Open Sans Bold";
+	color:#fcac45;
+}
+.bg-p{
+  color:#b7b7b7;
+  text-align:center;
+}
+.aboutus{
+	padding:5%;
+	font-family: "Open Sans Light"
+}
+.title{
+	font-family: "Open Sans Light";
+	text-transform:uppercase;
+}
+.title>font{
+	font-family: "Open Sans Bold";
+}
+.line{
+	width:62%;
+	height:3px;
+}
+.rowa-u{
+	padding:2%;
+}
+.text{
+	margin-top: 2%;
+	margin-right:35%;
+	font-size:18px;
+}
+.circle-disc{
+	list-style-image:url(../img/blak-MyCompany/lst.png);
+	margin-left:-5%;
+	margin-top:13%;
+	font-size:14px;
+}
+.circle-disc>li{
+	margin-top:2%;
+}
+.our-team{
+	background-color:black;
+  padding-top:3%;
+  padding-left:12%;
+  padding-right:12%;
+  padding-bottom:5%;
+}
+.our-team>h3{
+	font-family: "Open Sans Light";
+	color:white;
+	text-align:center;
+	margin-bottom:5%;
+}
+.ot-name>img{
+	padding-bottom: 5%;
+}
+.ot-name>font{
+	font-size:16px;
+}
+.ot-name{
+	font-family: "Open Sans Light";
+	color:white;
+	text-align:center;
+	font-size:18px;
+}
+.ot-p{
+	font-size:13px;
+	color:white;
+	text-align:center;
+	font-family: "Open Sans Light";
+}
+.our-services{
+	padding-top:3%;
+  padding-left:12%;
+  padding-right:12%;
+  padding-bottom:5%;
+}
+.our-services>h3{
+	font-family: "Open Sans Light";
+	text-align:center;
+	margin-bottom:3%;
+}
+.our-services>p{
+	font-family: "Open Sans Light";
+	text-align:center;
+	margin-bottom:6%;
+	font-size:14px;
+}
+.os-name{
+	font-family: "Open Sans Light";
+	text-align:center;
+	font-size:18px;
+}
+.os-name>b{
+	font-family: "Open Sans Bold";
+}
+.os-p{
+	font-family: "Open Sans Light";
+	font-size:13px;
+	text-align:center;
+}
+.our-clients{
+	background-color:black;
+  padding-top:3%;
+  padding-left:12%;
+  padding-right:12%;
+  padding-bottom:10%;
+}
+.our-clients>h3{
+	font-family: "Open Sans Light";
+	text-align:center;
+	margin-bottom:3%;
+	color:white;
+}
+.our-clients>p{
+	text-align:center;
+	margin-top:4%;
+	margin-right: 7%;
+}
+.our-clients>p>img{
+	margin-right: 1%;
+	margin-bottom:1%;
+	margin-left: 1%;
+}
+figure img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+figure:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+.our-work{
+  padding-top:3%;
+  padding-left:12%;
+  padding-right:12%;
+  padding-bottom:3%;
+}
+.our-work>h3{
+  font-family: "Open Sans Light";
+	text-align:center;
+	margin-bottom:3%;
+}
+.our-work>p{
+	font-family: "Open Sans Light";
+	text-align:center;
+	margin-bottom:6%;
+	font-size:14px;
+}
+.testi{
+  padding-top:4%;
+  padding-left:12%;
+  padding-right:12%;
+  padding-bottom:8%;
+  background-color:black;
+}
+.testi>h3{
+	font-family: "Open Sans Light";
+	text-align:center;
+	margin-bottom:6%;
+	color:white;
+}
+.carousel-inner{
+	font-family: "Open Sans Light";
+	text-align:center;
+	font-size:18px;
+	color:white;
+}
+.contact{
+  padding-top:3%;
+  padding-left:25%;
+  padding-right:25%;
+  padding-bottom:10%;
+}
+.contact>h3{
+	font-family: "Open Sans Light";
+	text-align:center;
+	margin-bottom:3%;
+}
+.contact>p{
+	font-family: "Open Sans Light";
+	text-align:center;
+	margin-bottom:6%;
+	font-size:14px;
+}
+.contact-table>label>font{
+  color:red;
+}
+.form-group>label>font{
+  color:red;
+}
+.contact>form{
+  font-family: "Open Sans Light";
+  font-size:14px;
+}
+.contact>form>p{
+  text-align: right;
+}
+.send{
+	width:165px;
+	height:40px;
+	font-family: "Open Sans Light";
+	background-color:#fcac45;
+	border: solid #fcac45;
+	cursor:pointer;
+	color:white;
+}
+.ftr{
+	background-color:#222222;
+	padding-top:2%;
+	padding-bottom: 1%;
+}
+.ftr>p{
+	text-align:center;
+}
+.ftr>p>a>img{
+	margin-right:0.2%;
+}
+@font-face {
+font-family: "Open Sans Bold";
+src: url("../fonts/2204.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: "Open Sans Light";
+src: url("../fonts/2209.ttf") format("truetype");
+font-weight: normal;
+font-style: normal;
+}
+@media screen and (max-width: 768px) {.logo-icon{
+	margin-right:0;
+}
+.site{
+	width:100%;
+	height:100%;
+}
+.rowa-u{
+	text-align:center;
+}
+.text{
+	margin:2%;
+}
+.contact>form>p{
+  text-align: center;
+}
+}
